@@ -1,0 +1,27 @@
+.banner .play,
+.banner .pause {
+  display: none;
+  position: absolute;
+  left: 70%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  color: var(--primary);
+  font-size: 3rem;
+  z-index: 100;
+  transition: 0.3s;
+  opacity: 0.3;
+}
+
+.banner .play:hover,
+.banner .pause:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.banner .play.active {
+  display: block;
+}
+
+.banner .pause.active {
+  display: block;
+}

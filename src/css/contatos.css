@@ -1,0 +1,21 @@
+.contatos {
+  position: absolute;
+  top: 40%;
+  right: 60px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contatos li a {
+  color: #fff;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+.contatos li a:hover {
+  color: var(--primary);
+}
